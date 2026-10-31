@@ -64,27 +64,45 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ScriptHaul provides a free bulk YouTube transcript downloader service, allowing users to paste individual video URLs, playlists, or channel links and receive captions in multiple formats such as TXT, SRT, VTT, Markdown, and JSON. The platform operates without requiring an account, offering an always‑free tier with high throughput (over 100,000 videos per day) and a simple web interface plus browser extensions for Chrome, Edge, Brave, and Arc. It includes features like language selection, timestamp options, and bulk processing, and it openly shares its privacy policy and terms of service. The service is aimed at creators, researchers, and anyone needing accessible video transcripts.
+Scripthaul provides a comprehensive API for accessing YouTube video data, transcripts, search, channel monitoring, and related video facts. The platform offers endpoints for retrieving video metadata, transcripts in multiple languages, searching YouTube, managing channel monitors, bulk jobs, handling credits and rate limits, and more. Detailed documentation, pricing, and authentication via API keys are available to developers.
 
-**Areas:** Company · YouTube · Transcripts · Free · Bulk
+**Areas:** Video · YouTube · Transcripts · Search · Analytics
 
 ## scripthaul-com on APIs.io
 
 Everything profiled for scripthaul-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/scripthaul-com/](https://apis.io/providers/scripthaul-com/)** — or go straight to one of the APIs or properties below.
 
-### APIs (1)
+### APIs (12)
 
-- [ScriptHaul API](https://apis.io/apis/scripthaul-com/scripthaul-api/) — Find YouTube videos, deliver captions, search indexed source-language passages, and monitor uploads. Free tier, no account required.
+- [scripthaul-com Account API](https://apis.io/apis/scripthaul-com/scripthaul-com-account-api/) — The Account API from scripthaul-com — 2 operation(s) for account.
+- [scripthaul-com Authentication API](https://apis.io/apis/scripthaul-com/scripthaul-com-authentication-api/) — The Authentication API from scripthaul-com — 3 operation(s) for authentication.
+- [scripthaul-com Billing API](https://apis.io/apis/scripthaul-com/scripthaul-com-billing-api/) — The Billing API from scripthaul-com — 3 operation(s) for billing.
+- [scripthaul-com Bulk jobs API](https://apis.io/apis/scripthaul-com/scripthaul-com-bulk-jobs-api/) — The Bulk jobs API from scripthaul-com — 9 operation(s) for bulk jobs.
+- [scripthaul-com Discovery API](https://apis.io/apis/scripthaul-com/scripthaul-com-discovery-api/) — The Discovery API from scripthaul-com — 3 operation(s) for discovery.
+- [scripthaul-com Keys API](https://apis.io/apis/scripthaul-com/scripthaul-com-keys-api/) — The Keys API from scripthaul-com — 3 operation(s) for keys.
+- [scripthaul-com Library API](https://apis.io/apis/scripthaul-com/scripthaul-com-library-api/) — The Library API from scripthaul-com — 2 operation(s) for library.
+- [scripthaul-com Monitors API](https://apis.io/apis/scripthaul-com/scripthaul-com-monitors-api/) — The Monitors API from scripthaul-com — 2 operation(s) for monitors.
+- [scripthaul-com Status API](https://apis.io/apis/scripthaul-com/scripthaul-com-status-api/) — The Status API from scripthaul-com — 1 operation(s) for status.
+- [scripthaul-com Transcripts API](https://apis.io/apis/scripthaul-com/scripthaul-com-transcripts-api/) — The Transcripts API from scripthaul-com — 1 operation(s) for transcripts.
+- [scripthaul-com Videos API](https://apis.io/apis/scripthaul-com/scripthaul-com-videos-api/) — The Videos API from scripthaul-com — 3 operation(s) for videos.
+- [scripthaul-com Webhooks API](https://apis.io/apis/scripthaul-com/scripthaul-com-webhooks-api/) — The Webhooks API from scripthaul-com — 1 operation(s) for webhooks.
 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Security (1)
+#### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
+- [Scripthaul Com Authentication](https://apis.io/security/scripthaul-com/scripthaul-com-authentication/)
 - [Scripthaul Com Domain Security](https://apis.io/security/scripthaul-com/scripthaul-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Scripthaul Com Scopes](https://apis.io/scopes/scripthaul-com/scripthaul-com-scopes/)
 
 #### Plans and pricing (1)
 
@@ -92,45 +110,54 @@ Published plans, tiers and prices.
 
 - [Scripthaul Com Plans Pricing](https://apis.io/plans/scripthaul-com/scripthaul-com-plans-pricing/)
 
+#### Rate limits (1)
+
+Published request limits.
+
+- [Scripthaul Com Rate Limits](https://apis.io/rate-limits/scripthaul-com/scripthaul-com-rate-limits/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://scripthaul.com/)
-- [Documentation](https://scripthaul.com/guides)
-- [API reference](https://api.scripthaul.com/docs)
+- [Documentation](https://api.scripthaul.com/docs)
+- [API reference](https://api.scripthaul.com/docs/reference)
 - [Pricing](https://api.scripthaul.com/pricing)
+- [Sign up](https://api.scripthaul.com/dashboard)
+- [Changelog](https://api.scripthaul.com/docs/changelog)
 - [Terms of service](https://scripthaul.com/terms)
 - [Privacy policy](https://scripthaul.com/privacy)
+- [GitHub](https://github.com/scripthaul/agent-skills)
 
 ## API Evangelist rating
 
-**Kin Score 25.0** — emerging · rubric 0.25.0 · scored 2026-10-30
+**Kin Score 52.6** — developing · rubric 0.25.0 · scored 2026-10-30
 
 | Facet | Score |
 |---|---|
-| Discoverability | 62.5 |
-| Contract quality | 0.0 |
+| Discoverability | 65.0 |
+| Contract quality | 47.1 |
 | Contract governance | 16.4 |
-| Operational transparency | 0.0 |
-| Developer ergonomics | 16.7 |
-| Access clarity | 60.0 |
+| Operational transparency | 49.5 |
+| Developer ergonomics | 42.1 |
+| Access clarity | 73.2 |
 
-**Agent readiness 21.6** — agent-aware
+**Agent readiness 62.8** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
-| Spec Presence | — |
+| Spec Presence | yes |
 | Agentic Access | — |
 | Reversibility Documented | — |
-| MCP Server | — |
+| MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
-| Idempotency | — |
-| Error Semantics | — |
-| OpenAPI Examples | — |
-| Rate Limit Signal | — |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
 | Event Surface Described | — |
-| Agent Skills | — |
+| Agent Skills | unknown |
 | Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
@@ -139,10 +166,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | verified |
 | Dynamic Client Registration | yes |
 | Agentic Commerce | — |
-| Pagination Ratio | na |
-| Operation Distinctiveness | na |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
 
-**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/scripthaul-com/](https://apis.io/providers/scripthaul-com/).
 
